@@ -1,7 +1,7 @@
 # Installing Keras_2.0.4 with CPU for Windows7
 ## 准备
-* 系统Windows7，64位版本
-* Anaconda3 4.2.0
+1. 系统Windows7，64位版本
+2. Anaconda3 4.2.0
 
 ## 安装步骤
 ### 1. 由于Keras默认以Tensorflow为backend, 先安装Tensorflow. 打开cmd, 输入以下命令:  
