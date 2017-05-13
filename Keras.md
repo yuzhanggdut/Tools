@@ -5,10 +5,14 @@
 
 ## 安装步骤
 ### 1. 由于Keras默认以Tensorflow为backend, 先安装Tensorflow. 打开cmd, 输入以下命令:  
-    C:\Users\sweetyu>pip install --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-1.0.1-cp35-cp35m-win_amd64.whl  
+    C:\Users\sweetyu>pip install --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-1.0.1-cp35-cp35m-win_amd64.whl 
+### 在安装Tensorflow时, 出现如下错误： 
+    Cannot remove entries from nonexistent file d:\python3\lib\site-packages\easy-install.pth
+### 解决方法：  
+    pip install --ignore-installed setuptools
 ### 2. 安装Keras. 同样在cmd中输入以下命令:  
     C:\Users\sweetyu>pip install keras -U --pre  
-### 在安装Keras时, 我出现了关于scipy的错误: Failed building wheel for scipy. 更新一下scipy即可. 方法如下: 
+### 在安装Keras时, 出现了关于scipy的错误: Failed building wheel for scipy. 更新一下scipy即可. 方法如下: 
     a. 前往 http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy 下载scipy‑0.19.0‑cp35‑cp35m‑win_amd64.whl
     
     b. Pip install scipy‑0.19.0‑cp35‑cp35m‑win_amd64.whl
