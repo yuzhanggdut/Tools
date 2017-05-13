@@ -10,6 +10,7 @@
     Cannot remove entries from nonexistent file d:\python3\lib\site-packages\easy-install.pth
 ### 解决方法：  
     pip install --ignore-installed setuptools
+    再次按照1中安装Tensorflow
 ### 2. 安装Keras. 同样在cmd中输入以下命令:  
     C:\Users\sweetyu>pip install keras -U --pre  
 ### 在安装Keras时, 出现了关于scipy的错误: Failed building wheel for scipy. 更新一下scipy即可. 方法如下: 
