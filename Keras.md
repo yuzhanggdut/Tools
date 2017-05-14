@@ -27,7 +27,7 @@
 ### 2. 用Keras中mnist数据集测试个小程序mnist_mlp.py    
     >>> conda install git
     >>> git clone https://github.com/yuzhanggdut/keras.git
-    >>> cd keras/examples/mnist_mlp
+    >>> cd keras/examples
     >>> python mnist_mlp.py  
 
 ## 参考
